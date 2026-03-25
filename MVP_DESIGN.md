@@ -25,3 +25,6 @@ This document outlines the architecture and technical design for the Minimum Via
   - Current FEN string.
   - Move history.
   - Timers (if a chess clock feature is enabled in the MVP).
+
+## State Management & Architecture
+- **Redux & Event Sourcing**: There is a strict requirement to use Redux for managing game and UI state. Furthermore, all state mutations must be modeled using Event Sourcing to ensure a reproducible, reliable, and testable timeline of game and UI events.

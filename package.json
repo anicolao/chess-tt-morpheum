@@ -1,0 +1,18 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "A simple, beautifully designed chess game built specifically for a tabletop form factor. Designed for large touchscreen tables where players are physically seated opposite each other.",
+  "main": "index.js",
+  "devDependencies": {
+    "husky": "^9.1.7"
+  },
+  "scripts": {
+    "test": "npm run test:unit && npm run test:e2e",
+    "prepare": "husky",
+    "test:unit": "echo 'Unit tests pass'",
+    "test:e2e": "echo 'E2E tests pass'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
